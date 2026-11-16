@@ -6,8 +6,8 @@ from openai import OpenAI
 from collections import defaultdict
 
 # ====================== CONFIG ======================
-BOT_TOKEN = "9095622762:AAH9xQ2GruSBIxaPOlG7X1UdZRI1gj9kJTA"  # Your bot token
-DEEPSEEK_API_KEY = "DEEPSEEK CODE"  # ← Put your DeepSeek key here
+BOT_TOKEN = "BOT_TOKEN"  # Your bot token
+DEEPSEEK_API_KEY = "DEEPSEEK_API_KEY"  # ← Put your DeepSeek key here
 
 client = OpenAI(
     api_key=DEEPSEEK_API_KEY,
