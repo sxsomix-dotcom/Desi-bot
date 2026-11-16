@@ -6,8 +6,8 @@ from openai import OpenAI
 from collections import defaultdict
 
 # ====================== CONFIG ======================
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-DEEPSEEK_API_KEY = os.environ["DEEPSEEK_API_KEY"]
+BOT_TOKEN = os.environ["9095622762:AAH9xQ2GruSBIxaPOlG7X1UdZRI1gj9kJTA"]
+DEEPSEEK_API_KEY = os.environ["sk-251c70157cf148d2868a4f622d1a1599"]
 client = OpenAI(
     api_key=DEEPSEEK_API_KEY,
     base_url="https://api.deepseek.com"
